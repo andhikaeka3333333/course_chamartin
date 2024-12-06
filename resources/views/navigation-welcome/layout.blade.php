@@ -9,7 +9,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body>
-    <x-navbar></x-navbar>
-    <x-main>{{ $slot }}</x-main>
+    <x-navbar-welcome></x-navbar-welcome>
+    <x-main-welcome>{{ $slot }}</x-main-welcome>
 </body>
 </html>
