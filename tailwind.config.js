@@ -6,7 +6,7 @@ export default {
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php',
+        './resources/views//*.blade.php',
     ],
 
     theme: {
@@ -16,6 +16,8 @@ export default {
               },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                poppins: ['Poppins', 'sans-serif'],
+                montserrat: ['Montserrat', 'sans-serif'],
             },
             keyframes: {
                 marquee: {
