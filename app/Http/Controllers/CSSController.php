@@ -6,7 +6,7 @@ namespace App\Http\Controllers;
 use App\Models\Question;
 use App\Models\QuestionCSS;
 use Illuminate\Http\Request;
-use PDF;
+USE Barryvdh\DomPDF\Facade\Pdf;
 
 class CSSController extends Controller
 {
