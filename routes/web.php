@@ -28,14 +28,14 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
     Route::post('/quiz/submit', [QuizController::class, 'submit'])->name('quiz.submit');
 
+    Route::get('/quiz-js', [JSController::class, 'index'])->name('quiz.index');
+    Route::post('/quiz-js/submit', [JSController::class, 'submit'])->name('quiz.submit');
+
     Route::get('/quiz-html', [HTMLController::class, 'index'])->name('quiz.index');
     Route::post('/quiz-html/submit', [HTMLController::class, 'submit'])->name('quiz.submit');
 
     Route::get('/quiz-css', [CSSController::class, 'index'])->name('quiz.index');
     Route::post('/quiz-css/submit', [CSSController::class, 'submit'])->name('quiz.submit');
-
-    Route::get('/quiz-js', [JSController::class, 'index'])->name('quiz.index');
-    Route::post('/quiz-js/submit', [JSController::class, 'submit'])->name('quiz.submit');
 
     // Route::get('/quiz-css', [CSSController::class, 'index'])->name('quiz.index');
     // Route::post('/quiz-css/submit', [CSSController::class, 'submit'])->name('quiz.submit');
