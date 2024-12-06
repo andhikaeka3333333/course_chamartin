@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
 class WelcomeController extends Controller
@@ -10,7 +11,9 @@ class WelcomeController extends Controller
      * Display a listing of the resource.
      */
     public function index() {
+        $testimonials = Testimonial::all();
         return view('welcome', [
+            'testimonials' => $testimonials,
             'title' => 'Chamartin'
         ]);
     }

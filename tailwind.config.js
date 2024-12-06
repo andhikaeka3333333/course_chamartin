@@ -11,9 +11,18 @@ export default {
 
     theme: {
         extend: {
+            animation: {
+                marquee: 'marquee 35s linear infinite',
+              },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            keyframes: {
+                marquee: {
+                    '0%': { transform: 'translateX(100%)' },
+                    '100%': { transform: 'translateX(-100%)' },
+                },
+              },
         },
     },
 
