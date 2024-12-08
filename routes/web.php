@@ -27,15 +27,15 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/materi', [MateriController::class, 'index'])->name('materi');
     Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
     Route::post('/quiz/submit', [QuizController::class, 'submit'])->name('quiz.submit');
+    
+    Route::get('/quiz-css', [CSSController::class, 'index'])->name('quiz.css.index');
+    Route::post('/quiz-css/submit', [CSSController::class, 'submit'])->name('quiz.css.submit');
 
-    Route::get('/quiz-js', [JSController::class, 'index'])->name('quiz.index');
-    Route::post('/quiz-js/submit', [JSController::class, 'submit'])->name('quiz.submit');
+    Route::get('/quiz-html', [HTMLController::class, 'index'])->name('quiz.html.index');
+    Route::post('/quiz-html/submit', [HTMLController::class, 'submit'])->name('quiz.html.submit');
 
-    Route::get('/quiz-html', [HTMLController::class, 'index'])->name('quiz.index');
-    Route::post('/quiz-html/submit', [HTMLController::class, 'submit'])->name('quiz.submit');
-
-    Route::get('/quiz-css', [CSSController::class, 'index'])->name('quiz.index');
-    Route::post('/quiz-css/submit', [CSSController::class, 'submit'])->name('quiz.submit');
+    Route::get('/quiz-js', [JSController::class, 'index'])->name('quiz.js.index');
+    Route::post('/quiz-js/submit', [JSController::class, 'submit'])->name('quiz.js.submit');
 
     // Route::get('/quiz-css', [CSSController::class, 'index'])->name('quiz.index');
     // Route::post('/quiz-css/submit', [CSSController::class, 'submit'])->name('quiz.submit');
