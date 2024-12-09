@@ -3,6 +3,7 @@
 use App\Http\Controllers\CSSController;
 use App\Http\Controllers\HTMLController;
 use App\Http\Controllers\JSController;
+use App\Http\Controllers\LearnPathController;
 use App\Http\Controllers\MateriController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WelcomeController;
@@ -27,7 +28,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/materi', [MateriController::class, 'index'])->name('materi');
     Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
     Route::post('/quiz/submit', [QuizController::class, 'submit'])->name('quiz.submit');
-    
+
     Route::get('/quiz-css', [CSSController::class, 'index'])->name('quiz.css.index');
     Route::post('/quiz-css/submit', [CSSController::class, 'submit'])->name('quiz.css.submit');
 
@@ -48,3 +49,4 @@ Route::middleware(['auth'])->group(function () {
 
 require __DIR__ . '/auth.php';
 Route::get('/', [WelcomeController::class, 'index']);
+Route::get('/learn-path', [LearnPathController::class, 'index']);
