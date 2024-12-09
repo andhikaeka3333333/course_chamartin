@@ -9,11 +9,9 @@
 
                 <!-- Nav Links -->
                 <div class="hidden md:flex ml-10 space-x-4">
-                    <x-nav-link href="/learn-path" :active="request()->is('/')">Home</x-nav-link>
-                    <x-nav-link href="/program" :active="request()->is('learn')">Learn</x-nav-link>
-                    <x-nav-link href="/about" :active="request()->is('rank')">Rank</x-nav-link>
-                    <x-nav-link href="/event" :active="request()->is('faq')">FAQ</x-nav-link>
-                    <x-nav-link href="/tentang-kami" :active="request()->is('tentang-kami')">Tentang Kami</x-nav-link>
+                    <x-nav-link href="/home" :active="request()->is('home')">Home</x-nav-link>
+                    <x-nav-link href="/materi" :active="request()->is('materi')">Learn</x-nav-link>
+                    <x-nav-link href="/event" :active="request()->is('event')">Event</x-nav-link>
                 </div>
             </div>
 
@@ -113,10 +111,9 @@
     <div x-show="isOpen" class="sm:hidden">
         <div class="space-y-1 px-2 pb-3 pt-2">
             <x-nav-link-mobile href="/" :active="request()->is('/')">Home</x-nav-link-mobile>
-            <x-nav-link-mobile href="/program" :active="request()->is('learn')">Learn</x-nav-link-mobile>
-            <x-nav-link-mobile href="/about" :active="request()->is('rank')">Rank</x-nav-link-mobile>
-            <x-nav-link-mobile href="/faq" :active="request()->is('faq')">FAQ</x-nav-link-mobile>
-            <x-nav-link-mobile href="/tentang-kami" :active="request()->is('tentang-kami')">Tentang Kami</x-nav-link-mobile>
+            <x-nav-link-mobile href="/materi" :active="request()->is('materi')">Learn</x-nav-link-mobile>
+            <x-nav-link-mobile href="/event" :active="request()->is('event')">Event</x-nav-link-mobile>
+
         </div>
     </div>
 </nav>
