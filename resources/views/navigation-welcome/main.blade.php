@@ -1,3 +1,3 @@
-<main class="p-4 pt-20">
+<main class="p-4 pt-1">
     {{ $slot }}
 </main>

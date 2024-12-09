@@ -1,8 +1,7 @@
 <x-layout-welcome>
     <x-slot:title>{{ $title }}</x-slot>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <div class="flex flex-col items-center text-center py-20 px-8 lg:px-20">
+ 
+    <div class="flex flex-col items-center text-center py-40 px-8 lg:px-20">
         <h1 class="text-5xl font-bold text-[#2d3e50] leading-snug font-poppins">
             Upgrade dirimu Menjadi Developer Profesional
         </h1>

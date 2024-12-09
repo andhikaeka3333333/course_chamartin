@@ -23,5 +23,6 @@ class AppServiceProvider extends ServiceProvider
         Blade::component('navigation-welcome.main', 'main-welcome');
         Blade::component('navigation-welcome.nav-link', 'nav-link-welcome');
         Blade::component('navigation-welcome.nav-link-mobile', 'nav-link-mobile-welcome');
+        Blade::component('navigation-welcome.footer', 'footer-welcome');
     }
 }
