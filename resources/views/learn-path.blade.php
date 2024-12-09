@@ -1,7 +1,7 @@
 <x-layout-welcome>
     <x-slot:title>{{ $title }}</x-slot>
 
-    <section class="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-4 py-28">
+    <section class="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-4 py-20">
         <!-- Text Section -->
         <div class="flex-1 text-left mb-6 md:mb-0 ">
           <h1 class="text-4xl md:text-3xl font-bold text-gray-800 mb-4">

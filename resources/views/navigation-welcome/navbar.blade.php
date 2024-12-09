@@ -17,7 +17,6 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">
                         <x-nav-link-welcome href="/learn-path" :active="request()->is('learn-path')">Learning Path</x-nav-link-welcome>
-                        <x-nav-link-welcome href="/program" :active="request()->is('program')">Program</x-nav-link-welcome>
                         <x-nav-link-welcome href="/about" :active="request()->is('about')">About</x-nav-link-welcome>
                         <x-nav-link-welcome href="/event" :active="request()->is('event')">Event</x-nav-link-welcome>
                         <x-nav-link-welcome href="/purpose" :active="request()->is('purpose')">Purpose</x-nav-link-welcome>
@@ -76,8 +75,7 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     <div x-show="isOpen" class="md:hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-            <x-nav-link-mobile-welcome href="/learn-path" :active="request()->is('/learn-path')">Learning Path</x-nav-link-mobile-welcome>
-            <x-nav-link-mobile-welcome href="/program" :active="request()->is('program')">Program</x-nav-link-mobile-welcome>
+            <x-nav-link-mobile-welcome href="/learn-path" :active="request()->is('learn-path')">Learning Path</x-nav-link-mobile-welcome>
             <x-nav-link-mobile-welcome href="/about" :active="request()->is('about')">About</x-nav-link-mobile-welcome>
             <x-nav-link-mobile-welcome href="/event" :active="request()->is('event')">Event</x-nav-link-mobile-welcome>
             <x-nav-link-mobile-welcome href="/purpose" :active="request()->is('purpose')">Purpose</x-nav-link-mobile-welcome>
