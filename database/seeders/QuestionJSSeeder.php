@@ -125,3 +125,4 @@ class QuestionJSSeeder extends Seeder
         ]);
     }
 }
+
