@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CSSController;
 use App\Http\Controllers\HTMLController;
 use App\Http\Controllers\JSController;
@@ -50,3 +51,5 @@ Route::middleware(['auth'])->group(function () {
 require __DIR__ . '/auth.php';
 Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/learn-path', [LearnPathController::class, 'index']);
+Route::get('/about', [AboutController::class, 'index']);
+
