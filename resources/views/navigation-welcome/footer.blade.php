@@ -4,7 +4,7 @@
       <div>
         <!-- Logo dan Nama -->
         <div class="flex items-center mb-2">
-            <img src="images/logo.png" alt="Chamartin Logo" class="w-10 h-auto mb-4 mr-4">
+            <img src="{{ asset('images/logo.png') }}" alt="Chamartin Logo" class="w-10 h-auto mb-4 mr-4">
             <h1 class="text-2xl font-bold font-poppins mb-4 mr-4 text-[#2d3e50]">Chamartin</h1>
         </div>
 
