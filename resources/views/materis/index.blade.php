@@ -1,39 +1,51 @@
 <x-app-layout>
-    <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title }}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
 
-<body class="bg-gray-100 text-gray-800">
-    {{-- <header class="bg-blue-600 text-white py-5">
-        <h1 class="text-3xl font-bold text-center">{{ $title }}</h1>
-    </header> --}}
-
-    <main class="container mx-auto p-5 space-y-10">
+    {{-- Jika ada daftar materi --}}
+    @if(isset($materi) && is_iterable($materi))
+    <main class="container mx-auto p-5 space-y-5">
         @foreach ($materi as $item)
         <section class="bg-white rounded-lg shadow-lg p-5">
-            <div class="flex flex-col md:flex-row items-center">
-                <img src="{{ $item->image }}" alt="{{ $item->title }}" class="w-32 h-32 mb-4 md:mb-0 md:mr-5" />
-                <div>
-                    <h2 class="text-2xl font-semibold mb-2 text-blue-600">{{ $item->title }}</h2>
-                    <p>{{ $item->content }}</p>
+            <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                {{-- Gambar materi --}}
+                <img src="{{ $item->image }}" alt="{{ $item->title }}"
+                     class="w-32 h-32 mb-4 lg:mb-0 lg:mr-5 object-cover" />
+
+                {{-- Detail materi --}}
+                <div class="flex-1">
+                    <a href="{{ route('materi.show', $item->title) }}"
+                       class="text-2xl font-semibold mb-2 text-blue-600 hover:underline block">
+                        {{ $item->title }}
+                    </a>
+                    <p class="text-gray-700 text-sm lg:text-base mb-4">{{ $item->content }}</p>
+
+                    {{-- Tombol Mulai Quiz --}}
+                    <a href="{{ route('quiz', ['title' => $item->title]) }}"
+                       class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-sm lg:text-base inline-block">
+                        Mulai Quiz
+                    </a>
                 </div>
             </div>
         </section>
         @endforeach
     </main>
+    @endif
 
-    <footer class="bg-gray-800 text-white py-5">
-        <p class="text-center">&copy; 2024 Materi Web Development</p>
-    </footer>
-</body>
+    {{-- Jika halaman detail materi --}}
+    @if(isset($materi) && !is_iterable($materi))
+    <main class="container mx-auto p-5 space-y-10">
+        <section class="bg-white rounded-lg shadow-lg p-5">
+            <h1 class="text-3xl font-bold mb-4 text-blue-600 text-center lg:text-left">{{ $materi->title }}</h1>
+            <img src="{{ $materi->image }}" alt="{{ $materi->title }}"
+                 class="w-64 h-64 mb-4 mx-auto object-cover" />
+            <p class="text-lg text-gray-700 text-justify mb-4">{{ $materi->content }}</p>
 
-</html>
+            {{-- Tombol Mulai Quiz --}}
+            <a href="{{ route('quiz', ['title' => $materi->title]) }}"
+               class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-sm lg:text-base inline-block">
+                Mulai Quiz
+            </a>
+        </section>
+    </main>
+    @endif
 </x-app-layout>
-
-
