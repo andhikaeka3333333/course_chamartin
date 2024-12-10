@@ -4,7 +4,7 @@
       <div>
         <!-- Logo dan Nama -->
         <div class="flex items-center mb-2">
-            <img src="images/logo.png" alt="Chamartin Logo" class="w-10 h-auto mb-4 mr-4">
+            <img src="{{ asset('images/logo.png') }}" alt="Chamartin Logo" class="w-10 h-auto mb-4 mr-4">
             <h1 class="text-2xl font-bold font-poppins mb-4 mr-4 text-[#2d3e50]">Chamartin</h1>
         </div>
 
@@ -68,10 +68,10 @@
         <div>
           <h2 class="font-semibold mb-4 text-lg font-poppins text-[#2d3e50]">Bantuan & Panduan</h2>
           <ul>
-            <li class="mb-2 font-poppins"><a href="/terms" class="hover:underline">Syarat dan ketentuan</a></li>
-            <li class="mb-2 font-poppins"><a href="/privacy-policy" class="hover:underline">Kebijakan privasi</a></li>
-            <li class="mb-2 font-poppins"><a href="/help" class="hover:underline">Bantuan</a></li>
-          </ul>
+            <li class="mb-2 font-poppins"><a href="#syarat" class="hover:underline">Syarat dan ketentuan</a></li>
+            <li class="mb-2 font-poppins"> <a href="#terms" class="hover:underline">Kebijakan privasi</a></li>
+            <li class="mb-2 font-poppins"><a href="#bantuan" class="hover:underline">Bantuan</a></li>
+        </ul>
         </div>
       </div>
     </div>

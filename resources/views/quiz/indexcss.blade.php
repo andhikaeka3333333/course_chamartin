@@ -1,6 +1,14 @@
 <!-- resources/views/quiz/index-html.blade.php -->
 <x-app-layout>
     <div class="max-w-7xl mx-auto py-10">
+
+        @if (session('message'))
+            <script>
+                alert("{{ session('message') }}");
+            </script>
+        @endif
+
+
         <h1 class="text-2xl font-bold mb-4">CSS Quiz</h1>
         <form method="POST" action="{{ route('quiz.css.submit') }}">
             @csrf
