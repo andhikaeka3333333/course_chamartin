@@ -4,13 +4,13 @@
             <!-- Logo -->
             <div class="flex items-center">
                 <div class="flex-shrink-0">
-                    <a href="/"><img src="images/logo.png" alt="Chamartin Logo" class="w-10 h-auto "></a>
+                    <a href="/"> <img src="{{ asset('images/logo.png') }}" alt="Chamartin Logo" class="w-10 h-auto"></a>
                 </div>
 
                 <!-- Nav Links -->
                 <div class="hidden md:flex ml-10 space-x-4">
                     <x-nav-link href="/home" :active="request()->is('home')">Home</x-nav-link>
-                    <x-nav-link href="/materi" :active="request()->is('materi')">Learn</x-nav-link>
+                    <x-nav-link href="/materi" :active="request()->is('materi') || request()->is('materi/*')">Learn</x-nav-link>
                     <x-nav-link href="/event" :active="request()->is('event')">Event</x-nav-link>
                 </div>
             </div>
