@@ -9,6 +9,7 @@ use App\Http\Controllers\LearnPathController;
 use App\Http\Controllers\MateriController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PurposeController;
+use App\Http\Controllers\TermsController;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\QuizController;
 use Illuminate\Support\Facades\Route;
@@ -57,5 +58,4 @@ Route::get('/learn-path', [LearnPathController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/purpose', [PurposeController::class, 'index']);
 Route::get('/event', [EventController::class, 'index']);
-
-
+Route::get('/terms', [TermsController::class, 'index']);

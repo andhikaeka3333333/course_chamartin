@@ -1,6 +1,5 @@
 <x-app-layout>
 
-    <div class="p-5 mb-4 bg-light rounded-3" style="background-color: white;">
         <!-- Gunakan Flexbox -->
         <div class="d-flex align-items-center justify-content-between py-5"
             style="display: flex; align-items: center; gap: 2rem; margin: 0; background-color: white;">
@@ -28,7 +27,5 @@
                     style="max-width: 100%; height: auto; border-radius: 15px; object-fit: cover; display: block;">
             </div>
         </div>
-
-    </div>
 
 </x-app-layout>

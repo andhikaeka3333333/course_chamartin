@@ -1,11 +1,12 @@
 <x-layout-welcome>
     <x-slot:title>{{ $title }}</x-slot>
- 
+    
+
     <div class="flex flex-col items-center text-center py-40 px-8 lg:px-20">
         <h1 class="text-5xl font-bold text-[#2d3e50] leading-snug font-poppins">
             Upgrade dirimu Menjadi Developer Profesional
         </h1>
-        <p class="text-gray-600 mt-6 font-montserrat">
+        <p class="text-gray-600 mt-6    ">
             #BelajarBerdampak bersama Chamartin dengan tingkatkan keterampilan digital & raih karir impian kamu.
         </p>
         <a href="{{ route('login') }}"
