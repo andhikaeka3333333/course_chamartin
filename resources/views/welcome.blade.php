@@ -60,12 +60,7 @@
                         <p class="mt-4 text-gray-700 leading-relaxed italic">
                             "{{ $testimonial->message }}"
                         </p>
-                        <div class="flex justify-center mt-6">
-                            <span
-                                class="inline-block bg-[#2d3e50] text-white text-sm font-semibold py-1 px-4 rounded-full">
-                                <i class="fas fa-quote-left mr-1"></i> Verified
-                            </span>
-                        </div>
+                        
                     </div>
                 @endforeach
             </div>
