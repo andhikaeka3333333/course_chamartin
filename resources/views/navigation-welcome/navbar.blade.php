@@ -19,6 +19,7 @@
                         <x-nav-link-welcome href="/learn-path" :active="request()->is('learn-path')">Learning Path</x-nav-link-welcome>
                         <x-nav-link-welcome href="/about" :active="request()->is('about')">About</x-nav-link-welcome>
                         <x-nav-link-welcome href="/purpose" :active="request()->is('purpose')">Purpose</x-nav-link-welcome>
+                        <x-nav-link-welcome href="/terms" :active="request()->is('terms')">Terms</x-nav-link-welcome>
                     </div>
                 </div>
             </div>
@@ -77,7 +78,7 @@
             <x-nav-link-mobile-welcome href="/learn-path" :active="request()->is('learn-path')">Learning Path</x-nav-link-mobile-welcome>
             <x-nav-link-mobile-welcome href="/about" :active="request()->is('about')">About</x-nav-link-mobile-welcome>
             <x-nav-link-mobile-welcome href="/purpose" :active="request()->is('purpose')">Purpose</x-nav-link-mobile-welcome>
-
+            <x-nav-link-mobile-welcome href="/terms" :active="request()->is('terms')">Terms</x-nav-link-mobile-welcome>
             @if (Route::has('login'))
                 @auth
                 <a href="{{ url('/home') }}"

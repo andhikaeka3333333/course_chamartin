@@ -1,6 +1,6 @@
 <x-layout-welcome>
     <x-slot:title>{{ $title }}</x-slot>
-    <div class="flex flex-col lg:flex-row gap-8 bg-gray-50 p-6 lg:p-16">
+    <div id="purpose" class="flex flex-col lg:flex-row gap-8 bg-gray-50 p-6 lg:p-16">
         <!-- Left Section (Stacked News Cards with Group Hover) -->
         <div class="relative lg:w-1/2 h-auto lg:h-96 group flex flex-col lg:block items-center">
             <!-- Card 1 -->

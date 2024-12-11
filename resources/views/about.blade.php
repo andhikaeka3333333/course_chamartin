@@ -51,7 +51,7 @@
                 <img src="images/rayhan.jpg" alt="Rayhan Fatturahman Rabbani" class="w-full h-96 object-cover">
                 <div class="p-6">
                     <h2 class="text-xl font-bold text-gray-800 group-hover:text-[#2d3e50] transition-colors duration-300">
-                        Rayhan Fatturahman Rabbani
+                        Rayhan Fathurrahman Rabbani
                     </h2>
                     <p class="text-gray-600 mt-2">
                         Saya sebagai UI/UX Designer sekaligus developer sangat bahagia karena bisa memberi dampak bagi masyarakat
