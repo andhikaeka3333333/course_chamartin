@@ -82,7 +82,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 2 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Mudah</span>
@@ -100,7 +99,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Normal</span>
@@ -118,7 +116,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 5 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
@@ -136,7 +133,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-red-700 bg-red-100 px-3 py-1 rounded-lg">Hard</span>
@@ -154,7 +150,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 5 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
@@ -207,7 +202,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Mudah</span>
@@ -224,7 +218,6 @@
                                     Pelajari konsep dasar JavaScript untuk membuat halaman web lebih dinamis. Fokus pada variabel, fungsi, manipulasi DOM, dan event handling untuk meningkatkan interaktivitas.                                </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 1.5 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Normal</span>
@@ -242,7 +235,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 2 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
@@ -260,7 +252,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-red-700 bg-red-100 px-3 py-1 rounded-lg">Sulit</span>
@@ -278,7 +269,6 @@
                                 </p>
                                 <div class="flex items-center text-gray-500 text-sm">
                                     <span class="mr-4">📅 Estimasi waktu 2 bulan</span>
-                                    <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                                 </div>
                             </div>
                             <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
@@ -329,7 +319,6 @@
                         </p>
                         <div class="flex items-center text-gray-500 text-sm">
                             <span class="mr-4">📅 Estimasi waktu 2 bulan</span>
-                            <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                         </div>
                     </div>
                     <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Mudah</span>
@@ -347,7 +336,6 @@
                         </p>
                         <div class="flex items-center text-gray-500 text-sm">
                             <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
-                            <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                         </div>
                     </div>
                     <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Normal</span>
@@ -365,7 +353,6 @@
                         </p>
                         <div class="flex items-center text-gray-500 text-sm">
                             <span class="mr-4">📅 Estimasi waktu 4 bulan</span>
-                            <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                         </div>
                     </div>
                     <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
@@ -383,7 +370,6 @@
                         </p>
                         <div class="flex items-center text-gray-500 text-sm">
                             <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
-                            <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                         </div>
                     </div>
                     <span class="text-sm font-medium text-red-700 bg-red-100 px-3 py-1 rounded-lg">Hard</span>
@@ -401,7 +387,6 @@
                         </p>
                         <div class="flex items-center text-gray-500 text-sm">
                             <span class="mr-4">📅 Estimasi waktu 4 bulan</span>
-                            <a href="#" class="text-blue-600 hover:underline">Link-url</a>
                         </div>
                     </div>
                     <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>

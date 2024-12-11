@@ -49,18 +49,17 @@
       <div class="grid grid-cols-3 gap-6 text-gray-800 text-sm">
         <div>
             <h2 class="font-semibold mb-4 mr-4 text-lg font-poppins text-[#2d3e50]">Chamartin</h2>
-
           <ul>
-            <li class="mb-2 font-poppins"><a href="/about" class="hover:underline">About</a></li>
-            <li class="mb-2 font-poppins"><a href="/faq" class="hover:underline">FAQ</a></li>
-            <li class="mb-2 font-poppins"><a href="/purpose" class="hover:underline">Purpose</a></li>
+            <li class="mb-2 font-poppins">  <a href="{{ url('about#about') }}" class="hover:underline">About</a></li>
+            <li class="mb-2 font-poppins">  <a href="{{ url('/#faq') }}" class="hover:underline">FAQ</a></li>
+            <li class="mb-2 font-poppins">  <a href="{{ url('purpose') }}" class="hover:underline">Purpose</a></li>
           </ul>
         </div>
         <div>
           <h2 class="font-semibold mb-4 text-lg font-poppins text-[#2d3e50]">Layanan</h2>
           <ul>
             <li class="mb-2 font-poppins"><a href="/learning-path" class="hover:underline">Learning Path</a></li>
-            <li class="mb-2 font-poppins"><a href="/program" class="hover:underline">Program</a></li>
+            <li class="mb-2 font-poppins"><a href="/learn" class="hover:underline">Learn</a></li>
             <li class="mb-2 font-poppins"><a href="/about" class="hover:underline">About</a></li>
             <li class="mb-2 font-poppins"><a href="/event" class="hover:underline">Event</a></li>
           </ul>
@@ -68,10 +67,17 @@
         <div>
           <h2 class="font-semibold mb-4 text-lg font-poppins text-[#2d3e50]">Bantuan & Panduan</h2>
           <ul>
-            <li class="mb-2 font-poppins"><a href="#syarat" class="hover:underline">Syarat dan ketentuan</a></li>
-            <li class="mb-2 font-poppins"> <a href="#terms" class="hover:underline">Kebijakan privasi</a></li>
-            <li class="mb-2 font-poppins"><a href="#bantuan" class="hover:underline">Bantuan</a></li>
+            <li class="mb-2 font-poppins">
+                <a href="{{ url('terms#syarat') }}" class="hover:underline">Syarat dan Ketentuan</a>
+            </li>
+            <li class="mb-2 font-poppins">
+                <a href="{{ url('terms#terms') }}" class="hover:underline">Kebijakan Privasi</a>
+            </li>
+            <li class="mb-2 font-poppins">
+                <a href="{{ url('terms#bantuan') }}" class="hover:underline">Bantuan</a>
+            </li>
         </ul>
+
         </div>
       </div>
     </div>

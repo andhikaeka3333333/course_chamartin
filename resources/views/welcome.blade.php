@@ -1,6 +1,6 @@
 <x-layout-welcome>
     <x-slot:title>{{ $title }}</x-slot>
-    
+
 
     <div class="flex flex-col items-center text-center py-40 px-8 lg:px-20">
         <h1 class="text-5xl font-bold text-[#2d3e50] leading-snug font-poppins">
@@ -39,69 +39,40 @@
         </div>
 
     </div>
-    <section id="testimonials" class="py-10 bg-[#f2feff] mt-20">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold font-poppins text-[#2d3e50]">Apa Kata Pengguna Tentang Kami?</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+    <section id="testimonials" class="py-16 bg-gradient-to-b from-[#e0f7fa] to-[#ffffff] mt-20">
+        <div class="container mx-auto text-center px-6">
+            <h2 class="text-4xl font-extrabold font-poppins text-[#2d3e50]">
+                Apa Kata Pengguna Tentang Kami?
+            </h2>
+            <p class="text-gray-600 mt-4">
+                Dengarkan pengalaman mereka yang telah menggunakan layanan kami!
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
                 @foreach ($testimonials as $testimonial)
-                    <div class="bg-white p-6 rounded-lg shadow-md">
-                        <img src="{{ $testimonial->photo_url }}" alt="{{ $testimonial->name }}"
-                            class="w-16 h-16 rounded-full mx-auto">
-                        <h3 class="mt-4 font-bold ">{{ $testimonial->name }}</h3>
-                        <p class="text-sm text-gray-600">{{ $testimonial->position }}</p>
-                        <p class="mt-2 text-gray-800">{{ $testimonial->message }}</p>
+                    <div
+                        class="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition duration-300 ease-in-out">
+                        <div class="flex items-center justify-center">
+                            <img src="{{ $testimonial->photo_url }}" alt="{{ $testimonial->name }}"
+                                class="w-20 h-20 rounded-full border-4 border-[#2d3e50] shadow-md">
+                        </div>
+                        <h3 class="mt-6 text-xl font-semibold text-[#2d3e50]">{{ $testimonial->name }}</h3>
+                        <p class="text-sm text-gray-500">{{ $testimonial->position }}</p>
+                        <p class="mt-4 text-gray-700 leading-relaxed italic">
+                            "{{ $testimonial->message }}"
+                        </p>
+                        <div class="flex justify-center mt-6">
+                            <span
+                                class="inline-block bg-[#2d3e50] text-white text-sm font-semibold py-1 px-4 rounded-full">
+                                <i class="fas fa-quote-left mr-1"></i> Verified
+                            </span>
+                        </div>
                     </div>
                 @endforeach
             </div>
         </div>
     </section>
-    <div class="relative overflow-hidden bg-gray-100 py-4">
-        <div class="absolute inset-0 bg-[#f2feff]"></div>
-        <div class="relative flex animate-marquee gap-4">
-            <div class="flex-shrink-0 flex space-x-4">
-                <span
-                    class="bg-green-400 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-100">
-                    Pemula
-                </span>
-                <span
-                    class="bg-blue-600 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    Web Development
-                </span>
-                <span
-                    class="bg-green-500 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    Mobile Development
-                </span>
-                <span
-                    class="bg-purple-500 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    Game Development
-                </span>
-                <span
-                    class="bg-yellow-400 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    IoT
-                </span>
-                <span
-                    class="bg-indigo-600 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    Artificial Intelligence
-                </span>
-                <span
-                    class="bg-pink-400 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    UI/UX
-                </span>
-                <span
-                    class="bg-teal-500 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    3D Animation
-                </span>
-                <span
-                    class="bg-orange-400 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    Figma
-                </span>
-                <span
-                    class="bg-gray-500 rounded-full px-4 py-2 text-xs sm:text-sm font-semibold text-white shadow hover:scale-110 transition-all duration-300">
-                    No Code
-                </span>
-            </div>
-        </div>
-    </div>
+
+
 
     <section id="about" class="container px-12 grid justify-center bg-white rounded-md aos-init aos-animate"
     data-aos="fade-in" data-aos-duration="100">
@@ -123,19 +94,18 @@
         </div>
     </div>
 </section>
-
-<div class="text-center my-4 text-slate-800 aos-init aos-animate" data-aos="fade-down" data-aos-duration="1000">
-    <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#2d3e50]">
-        Common Questions About Chamartin.
+<div id="faq" class="text-center my-4 text-[#2d3e50] py-10">
+    <h2 class="text-3xl md:text-4xl font-bold font-poppins">
+        Common Questions About Chamartin
     </h2>
     <p class="font-semibold text-lg">
         Yang sering ditanyakan terkait Chamartin.
     </p>
 </div>
-<ul class="px-2 md:px-24 py-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1000">
+<ul class="px-2 md:px-24 py-6">
     <li>
         <details class="p-2 bg-gray-100 my-3 hover:cursor-pointer rounded-md">
-            <summary class="p-2 text-blue-700 font-semibold">
+            <summary class="p-2 font-semibold text-[#2d3e50]">
                 Apa itu Chamartin?
             </summary>
             <p class="p-2 text-gray-700">
@@ -145,7 +115,7 @@
     </li>
     <li>
         <details class="p-2 bg-gray-100 my-3 hover:cursor-pointer rounded-md">
-            <summary class="p-2 text-blue-700 font-semibold">
+            <summary class="p-2 font-semibold text-[#2d3e50]">
                 Apakah kursus di Chamartin gratis?
             </summary>
             <p class="p-2 text-gray-700">
@@ -155,7 +125,7 @@
     </li>
     <li>
         <details class="p-2 bg-gray-100 my-3 hover:cursor-pointer rounded-md">
-            <summary class="p-2 text-blue-700 font-semibold">
+            <summary class="p-2 font-semibold text-[#2d3e50]">
                 Apakah peserta akan mendapatkan sertifikat?
             </summary>
             <p class="p-2 text-gray-700">
@@ -165,7 +135,7 @@
     </li>
     <li>
         <details class="p-2 bg-gray-100 my-3 hover:cursor-pointer rounded-md">
-            <summary class="p-2 text-blue-700 font-semibold">
+            <summary class="p-2 font-semibold text-[#2d3e50]">
                 Framework apa yang digunakan di Chamartin?
             </summary>
             <p class="p-2 text-gray-700">
@@ -175,7 +145,7 @@
     </li>
     <li>
         <details class="p-2 bg-gray-100 my-3 hover:cursor-pointer rounded-md">
-            <summary class="p-2 text-blue-700 font-semibold">
+            <summary class="p-2 font-semibold text-[#2d3e50]">
                 Siapa yang bisa mengikuti kursus di Chamartin?
             </summary>
             <p class="p-2 text-gray-700">
@@ -185,7 +155,7 @@
     </li>
     <li>
         <details class="p-2 bg-gray-100 my-3 hover:cursor-pointer rounded-md">
-            <summary class="p-2 text-blue-700 font-semibold">
+            <summary class="p-2 font-semibold text-[#2d3e50]">
                 Apakah Chamartin memiliki komunitas belajar?
             </summary>
             <p class="p-2 text-gray-700">
