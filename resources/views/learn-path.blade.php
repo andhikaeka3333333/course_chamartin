@@ -36,6 +36,9 @@
             <button class="tab-btn px-6 py-3 font-semibold text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-300" data-target="iot">
                 IoT
             </button>
+            <button class="tab-btn px-6 py-3 font-semibold text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-300" data-target="game">
+                Game
+            </button>
         </div>
 
         <!-- Konten Tab -->
@@ -276,10 +279,9 @@
                   </section>
             </div>
 
-<!-- Konten Tab -->
-<div class="tab-contents">
-    <!-- Konten IoT -->
-    <div id="iot" class="tab-content hidden">
+        <!-- Konten Tab -->
+        <div class="tab-contents">
+        <div id="iot" class="tab-content hidden">
         <img src="images/iot.jpg" alt="IoT Development" class="w-full rounded-lg shadow-md mb-6">
         <section class="py-12 px-8 bg-white">
             <div class="max-w-3xl mx-auto">
@@ -392,8 +394,126 @@
                     <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
                 </div>
           </section>
+        </div>
     </div>
-</div>
+
+    <div class="tab-contents">
+        <!-- Konten Game -->
+        <div id="game" class="tab-content hidden">
+            <img src="images/Game.jpg" alt="Game Development" class="w-full rounded-lg shadow-md mb-6">
+            <section class="py-12 px-8 bg-white">
+                <div class="max-w-3xl mx-auto">
+                  <div class="flex items-center mb-4">
+                    <div class="w-10 h-10 flex items-center justify-center bg-purple-500 text-white rounded-lg mr-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 3h4.5m-4.5 0A1.5 1.5 0 008.25 4.5v15a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-15a1.5 1.5 0 00-1.5-1.5m-4.5 0v1.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5V3m-7.5 0v15m3-15h3" />
+                      </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold font-poppins">Learning Path</h2>
+                  </div>
+                  <h3 class="text-2xl font-semibold mb-2">General Knowledge About Game Development</h3>
+                  <p class="text-gray-600 mb-6">
+                    Pernah nggak sih kamu bertanya-tanya, 'Kalau mau jadi Game Developer, mulai dari mana ya?' Tenang, nggak usah panik! Di sini kita bakal bahas langkah awal banget buat kamu yang mau nyemplung ke dunia Game Development. Apa aja yang perlu disiapkan, dipelajari, dan mindset yang harus ditanamkan supaya perjalananmu jadi seru dan terarah.
+                  </p>
+                  <div class="flex gap-4">
+                    <span class="px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium">Design</span>
+                    <span class="px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium">Programming</span>
+                    <span class="px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium">Storytelling</span>
+                  </div>
+                </div>
+
+                <div class="max-w-3xl mx-auto p-6">
+
+                    <!-- Garis -->
+                    <div class="border-t border-gray-200 mb-6"></div>
+
+                    <!-- Card 1 -->
+                    <div class="flex items-start bg-white shadow-md rounded-lg p-6 mb-6">
+                        <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mr-4">
+                            <img src="https://img.icons8.com/color/48/000000/unity.png" alt="Unity" class="w-6 h-6">
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-lg font-semibold text-gray-800 mb-2">Belajar Dasar Game Development dengan Unity</h2>
+                            <p class="text-sm text-gray-600 mb-4">
+                                Unity adalah salah satu engine paling populer untuk membuat game. Di sini kamu akan belajar dasar-dasar penggunaan Unity, termasuk membuat karakter, lingkungan, dan mekanisme permainan sederhana.
+                            </p>
+                            <div class="flex items-center text-gray-500 text-sm">
+                                <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
+                            </div>
+                        </div>
+                        <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Mudah</span>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="flex items-start bg-white shadow-md rounded-lg p-6 mb-6">
+                        <div class="flex items-center justify-center w-10 h-10 bg-green-100 rounded-full mr-4">
+                            <img src="https://img.icons8.com/color/48/000000/blender-3d.png" alt="Blender" class="w-6 h-6">
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-lg font-semibold text-gray-800 mb-2">Mempelajari Blender untuk Model 3D</h2>
+                            <p class="text-sm text-gray-600 mb-4">
+                                Setelah memahami dasar pembuatan game, kamu bisa memperdalam keterampilan dengan belajar membuat model 3D menggunakan Blender. Model ini bisa digunakan untuk karakter, objek, atau lingkungan dalam game.
+                            </p>
+                            <div class="flex items-center text-gray-500 text-sm">
+                                <span class="mr-4">📅 Estimasi waktu 4 bulan</span>
+                            </div>
+                        </div>
+                        <span class="text-sm font-medium text-green-700 bg-green-100 px-3 py-1 rounded-lg">Normal</span>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="flex items-start bg-white shadow-md rounded-lg p-6 mb-6">
+                        <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mr-4">
+                            <img src="https://img.icons8.com/color/48/000000/c-sharp-logo-2.png" alt="C#" class="w-6 h-6">
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-lg font-semibold text-gray-800 mb-2">Belajar C# untuk Scripting</h2>
+                            <p class="text-sm text-gray-600 mb-4">
+                                Scripting adalah bagian penting dalam pengembangan game. Dengan belajar C#, kamu bisa membuat logika game yang kompleks seperti AI, kontrol karakter, dan sistem inventaris.
+                            </p>
+                            <div class="flex items-center text-gray-500 text-sm">
+                                <span class="mr-4">📅 Estimasi waktu 3 bulan</span>
+                            </div>
+                        </div>
+                        <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="flex items-start bg-white shadow-md rounded-lg p-6 mb-6">
+                        <div class="flex items-center justify-center w-10 h-10 bg-red-100 rounded-full mr-4">
+                            <img src="https://img.icons8.com/color/48/000000/adobe-photoshop.png" alt="Photoshop" class="w-6 h-6">
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-lg font-semibold text-gray-800 mb-2">Menguasai Photoshop untuk Game Assets</h2>
+                            <p class="text-sm text-gray-600 mb-4">
+                                Untuk mempercantik game, kamu perlu belajar desain 2D untuk membuat texture, icon, atau interface game. Photoshop adalah alat yang sangat berguna untuk kebutuhan ini.
+                            </p>
+                            <div class="flex items-center text-gray-500 text-sm">
+                                <span class="mr-4">📅 Estimasi waktu 2 bulan</span>
+                            </div>
+                        </div>
+                        <span class="text-sm font-medium text-red-700 bg-red-100 px-3 py-1 rounded-lg">Hard</span>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="flex items-start bg-white shadow-md rounded-lg p-6">
+                        <div class="flex items-center justify-center w-10 h-10 bg-blue-100 rounded-full mr-4">
+                            <img src="https://img.icons8.com/color/48/000000/unreal-engine.png" alt="Unreal Engine" class="w-6 h-6">
+                        </div>
+                        <div class="flex-1">
+                            <h2 class="text-lg font-semibold text-gray-800 mb-2">Memanfaatkan Unreal Engine untuk Grafik Tingkat Tinggi</h2>
+                            <p class="text-sm text-gray-600 mb-4">
+                                Unreal Engine adalah pilihan terbaik jika kamu ingin membuat game dengan kualitas grafik tinggi. Di sini, kamu akan belajar fitur-fitur unggulan Unreal Engine seperti Blueprints dan real-time rendering.
+                            </p>
+                            <div class="flex items-center text-gray-500 text-sm">
+                                <span class="mr-4">📅 Estimasi waktu 5 bulan</span>
+                            </div>
+                        </div>
+                        <span class="text-sm font-medium text-yellow-700 bg-yellow-100 px-3 py-1 rounded-lg">Medium</span>
+                    </div>
+              </section>
+        </div>
+    </div>
 
         </div>
     </div>

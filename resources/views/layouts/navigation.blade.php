@@ -12,7 +12,6 @@
                     <x-nav-link href="/home" :active="request()->is('home')">Home</x-nav-link>
                     <x-nav-link href="/materi" :active="request()->is('materi') || request()->is('materi/*')">Learn</x-nav-link>
                     <x-nav-link href="/event" :active="request()->is('event')">Event</x-nav-link>
-                    <x-nav-link href="/program" :active="request()->is('program')">Program</x-nav-link>
                 </div>
             </div>
 
@@ -113,9 +112,7 @@
         <div class="space-y-1 px-2 pb-3 pt-2">
             <x-nav-link-mobile href="/home" :active="request()->is('/home')">Home</x-nav-link-mobile>
             <x-nav-link-mobile href="/materi" :active="request()->is('materi')">Learn</x-nav-link-mobile>
-            <x-nav-link-mobile href="/terms" :active="request()->is('terms')">Terms</x-nav-link-mobile>
-            <x-nav-link-mobile href="/program" :active="request()->is('program')">Program</x-nav-link-mobile>
-
+            <x-nav-link-mobile href="/event" :active="request()->is('event')">Event</x-nav-link-mobile>
         </div>
     </div>
 </nav>

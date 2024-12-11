@@ -10,6 +10,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -17,10 +18,7 @@
     <body >
         <div class="bg-blue-100">
             @include('layouts.navigation')
-            <!-- Page Content -->
-            <main>
-                {{ $slot }}
-            </main>
+            <main>{{ $slot }}</main>
         </div>
     </body>
     <x-footer-welcome></x-footer-welcome>
