@@ -14,7 +14,7 @@ class MateriController extends Controller
         $materi = Materi::all();
         return view('materis.index', [
             'materi' => $materi,
-            'title' => 'Materi Web Development',
+            'judul' => 'Materi',
         ]);
     }
 

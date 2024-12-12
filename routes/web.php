@@ -3,10 +3,15 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\CSSController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HTMLController;
 use App\Http\Controllers\JSController;
 use App\Http\Controllers\LearnPathController;
 use App\Http\Controllers\MateriController;
+use App\Http\Controllers\MateriCSSController;
+use App\Http\Controllers\MateriHTMLController;
+use App\Http\Controllers\MateriJSController;
+use App\Http\Controllers\MerchandiseController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PurposeController;
 use App\Http\Controllers\TermsController;
@@ -29,10 +34,11 @@ Route::middleware('auth')->group(function () {
 Route::middleware(['auth'])->group(function () {
     Route::get('/materi', [MateriController::class, 'index'])->name('materi');
     Route::get('/materi/{title}', [MateriController::class, 'show'])->name('materi.show');
+    Route::get('/event', [EventController::class, 'index']);
+    Route::get('/merchandise', [MerchandiseController::class, 'index']);
     Route::get('/quiz-{title}', [MateriController::class, 'quiz'])->name('quiz');
     Route::get('/quiz', [QuizController::class, 'index'])->name('quiz.index');
     Route::post('/quiz/submit', [QuizController::class, 'submit'])->name('quiz.submit');
-
     Route::get('/quiz-css', [CSSController::class, 'index'])->name('quiz.css.index');
     Route::post('/quiz-css/submit', [CSSController::class, 'submit'])->name('quiz.css.submit');
 
@@ -56,5 +62,8 @@ Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/learn-path', [LearnPathController::class, 'index']);
 Route::get('/about', [AboutController::class, 'index']);
 Route::get('/purpose', [PurposeController::class, 'index']);
-Route::get('/event', [EventController::class, 'index']);
-Route::get('/terms', [TermsController::class, 'index']);
+Route::get('/terms', [TermsController::class, 'index'])->name('event');
+Route::get('/materi/HTML', [MateriHTMLController::class, 'index']);
+Route::get('/materi/CSS', [MateriCSSController::class, 'index']);
+Route::get('/materi/JavaScript', [MateriJSController::class, 'index']);
+
