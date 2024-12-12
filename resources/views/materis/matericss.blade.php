@@ -1,5 +1,4 @@
 <x-app-layout>
-    <title>Materi CSS</title>
 
     <div class="container mx-auto p-6 bg-gradient-to-b from-blue-100 to-blue-50 min-h-screen space-y-12">
         <!-- Judul Materi -->

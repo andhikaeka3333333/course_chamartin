@@ -2,17 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
-class AboutController extends Controller
+class LearnController extends Controller
 {
-    //
     /**
      * Display a listing of the resource.
      */
-    public function index() {
-        return view('about', [
-            'title' => 'About'
+    public function index(): View {
+        return view('materis.index', [
+            'title' => 'Learn'
         ]);
     }
 

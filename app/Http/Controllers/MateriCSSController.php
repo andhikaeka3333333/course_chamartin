@@ -2,17 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Testimonial;
 use Illuminate\Http\Request;
 
-class AboutController extends Controller
+class MateriCSSController extends Controller
 {
-    //
     /**
      * Display a listing of the resource.
      */
     public function index() {
-        return view('about', [
-            'title' => 'About'
+        return view('materis.matericss', [
+            'judul' => 'CSS'
         ]);
     }
 

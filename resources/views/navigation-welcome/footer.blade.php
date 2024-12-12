@@ -58,14 +58,14 @@
         <div>
           <h2 class="font-semibold mb-4 text-lg font-poppins text-[#2d3e50]">Layanan</h2>
           <ul>
-            <li class="mb-2 font-poppins"><a href="/learning-path" class="hover:underline">Learning Path</a></li>
-            <li class="mb-2 font-poppins"><a href="/learn" class="hover:underline">Learn</a></li>
-            <li class="mb-2 font-poppins"><a href="/about" class="hover:underline">About</a></li>
+            <li class="mb-2 font-poppins"><a href="{{ route('login') }}" class="hover:underline">Home</a></li>
+            <li class="mb-2 font-poppins"><a href="/materi" class="hover:underline">Learning</a></li>
             <li class="mb-2 font-poppins"><a href="/event" class="hover:underline">Event</a></li>
+            <li class="mb-2 font-poppins"><a href="/merchandise" class="hover:underline">Merchandise</a></li>
           </ul>
         </div>
         <div>
-          <h2 class="font-semibold mb-4 text-lg font-poppins text-[#2d3e50]">Bantuan & Panduan</h2>
+          <h2 class="font-semibold mb-4 text-lg font-poppins text-[#2d3e50]">Bantuan</h2>
           <ul>
             <li class="mb-2 font-poppins">
                 <a href="{{ url('terms#syarat') }}" class="hover:underline">Syarat dan Ketentuan</a>

@@ -1,6 +1,5 @@
 <x-app-layout>
-    <title>{{ $title }}</title>
- 
+    
     <div class="container mx-auto p-6 bg-gradient-to-b from-blue-100 to-blue-50 min-h-screen space-y-12">
         <!-- Pengantar HTML -->
         <div class="bg-white shadow-2xl rounded-lg p-8">

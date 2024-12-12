@@ -12,6 +12,7 @@
                     <x-nav-link href="/home" :active="request()->is('home')">Home</x-nav-link>
                     <x-nav-link href="/materi" :active="request()->is('materi') || request()->is('materi/*')">Learn</x-nav-link>
                     <x-nav-link href="/event" :active="request()->is('event')">Event</x-nav-link>
+                    <x-nav-link href="/merchandise" :active="request()->is('merchandise')">Merchandise</x-nav-link>
                 </div>
             </div>
 
@@ -113,6 +114,7 @@
             <x-nav-link-mobile href="/home" :active="request()->is('/home')">Home</x-nav-link-mobile>
             <x-nav-link-mobile href="/materi" :active="request()->is('materi')">Learn</x-nav-link-mobile>
             <x-nav-link-mobile href="/event" :active="request()->is('event')">Event</x-nav-link-mobile>
+            <x-nav-link-mobile href="/merchandise" :active="request()->is('merchandise')">Merchandise</x-nav-link-mobile>
         </div>
     </div>
 </nav>

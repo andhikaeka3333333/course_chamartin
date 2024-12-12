@@ -1,6 +1,13 @@
 <x-app-layout>
-    <title>{{ $title }}</title>
-
+    <div class="bg-blue-100">
+        <div class="bg-[#2d3e50] text-white py-8">
+            <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold">Selamat Belajar, {{ auth()->user()->name }}</h1>
+                    <p class="text-base mt-2">Baca doa dulu yuk sebelum belajar</p>
+                </div>
+            </div>
+        </div>
     {{-- Jika ada daftar materi --}}
     @if(isset($materi) && is_iterable($materi))
     <main class="container mx-auto p-5 space-y-5">
@@ -48,4 +55,5 @@
         </section>
     </main>
     @endif
+</div>
 </x-app-layout>
