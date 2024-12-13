@@ -39,30 +39,39 @@
         </div>
 
     </div>
-    <section id="testimonials" class="py-16 bg-gradient-to-b from-[#e0f7fa] to-[#ffffff] mt-20">
-        <div class="container mx-auto text-center px-6">
-            <h2 class="text-4xl font-extrabold font-poppins text-[#2d3e50]">
+    <section id="testimonials" class="py-12 bg-gradient-to-b from-[#e0f7fa] to-[#ffffff] mt-16">
+        <div class="container mx-auto text-center px-4 md:px-6 lg:px-8 max-w-[90%]">
+            <h2 class="text-3xl md:text-4xl font-extrabold font-poppins text-[#2d3e50]">
                 Apa Kata Pengguna Tentang Kami?
             </h2>
-            <p class="text-gray-600 mt-4">
+            <p class="text-gray-600 mt-4 max-w-xl mx-auto">
                 Dengarkan pengalaman mereka yang telah menggunakan layanan kami!
             </p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 @foreach ($testimonials as $testimonial)
-                    <div
-                        class="bg-white p-8 rounded-xl shadow-lg transform hover:-translate-y-2 hover:shadow-2xl transition duration-300 ease-in-out">
+                    <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg">
                         <div class="flex items-center justify-center">
                             <img src="{{ $testimonial->photo_url }}" alt="{{ $testimonial->name }}"
-                                class="w-20 h-20 rounded-full border-4 border-[#2d3e50] shadow-md">
+                                class="w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-[#2d3e50] shadow-md">
                         </div>
-                        <h3 class="mt-6 text-xl font-semibold text-[#2d3e50]">{{ $testimonial->name }}</h3>
-                        <p class="text-sm text-gray-500">{{ $testimonial->position }}</p>
-                        <p class="mt-4 text-gray-700 leading-relaxed italic">
+                        <h3 class="mt-4 text-lg md:text-xl font-semibold text-[#2d3e50]">
+                            {{ $testimonial->name }}
+                        </h3>
+                        <p class="text-sm text-gray-500">
+                            {{ $testimonial->position }}
+                        </p>
+                        <p class="mt-3 text-gray-700 leading-relaxed italic">
                             "{{ $testimonial->message }}"
                         </p>
-                        
                     </div>
                 @endforeach
+            </div>
+
+            <div class="mt-10">
+                <a href="#" class="px-6 py-3 bg-[#2d3e50] text-white rounded-lg shadow hover:bg-[#1b2938] transition-colors duration-300">
+                    Lihat Semua Testimoni
+                </a>
             </div>
         </div>
     </section>

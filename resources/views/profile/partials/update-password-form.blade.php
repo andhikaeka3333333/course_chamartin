@@ -1,6 +1,6 @@
-<section>
+<section  class="space-y-8 p-6 bg-gradient-to-br from-blue-100 via-purple-50 to-blue-50 rounded-lg shadow-lg">
     <header>
-        <h2 class="text-lg font-medium text-gray-900 dark:text-gray-100">
+        <h2 class="text-2xl font-bold text-gray-800 dark:text-gray-700 mb-2">
             {{ __('Update Password') }}
         </h2>
 
