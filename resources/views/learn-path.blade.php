@@ -54,7 +54,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 3h4.5m-4.5 0A1.5 1.5 0 008.25 4.5v15a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-15a1.5 1.5 0 00-1.5-1.5m-4.5 0v1.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5V3m-7.5 0v15m3-15h3" />
                           </svg>
                         </div>
-                        <h2 class="text-xl font-semibold font-poppins">Learning Path</h2>
+                        <h2 class="text-xl font-semibold">Learning Path</h2>
                       </div>
                       <h3 class="text-2xl font-semibold mb-2">General Knowledge About Android Development</h3>
                       <p class="text-gray-600 mb-6">
@@ -173,7 +173,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 3h4.5m-4.5 0A1.5 1.5 0 008.25 4.5v15a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-15a1.5 1.5 0 00-1.5-1.5m-4.5 0v1.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5V3m-7.5 0v15m3-15h3" />
                           </svg>
                         </div>
-                        <h2 class="text-xl font-semibold font-poppins">Learning Path</h2>
+                        <h2 class="text-xl font-semibold">Learning Path</h2>
                       </div>
                       <h3 class="text-2xl font-semibold mb-2">General Knowledge About Website Development</h3>
                       <p class="text-gray-600 mb-6">
@@ -291,7 +291,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 3h4.5m-4.5 0A1.5 1.5 0 008.25 4.5v15a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-15a1.5 1.5 0 00-1.5-1.5m-4.5 0v1.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5V3m-7.5 0v15m3-15h3" />
                   </svg>
                 </div>
-                <h2 class="text-xl font-semibold font-poppins">Learning Path</h2>
+                <h2 class="text-xl font-semibold">Learning Path</h2>
               </div>
               <h3 class="text-2xl font-semibold mb-2">General Knowledge About IoT Development</h3>
               <p class="text-gray-600 mb-6">
@@ -409,7 +409,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 3h4.5m-4.5 0A1.5 1.5 0 008.25 4.5v15a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5v-15a1.5 1.5 0 00-1.5-1.5m-4.5 0v1.5a1.5 1.5 0 001.5 1.5h4.5a1.5 1.5 0 001.5-1.5V3m-7.5 0v15m3-15h3" />
                       </svg>
                     </div>
-                    <h2 class="text-xl font-semibold font-poppins">Learning Path</h2>
+                    <h2 class="text-xl font-semibold ">Learning Path</h2>
                   </div>
                   <h3 class="text-2xl font-semibold mb-2">General Knowledge About Game Development</h3>
                   <p class="text-gray-600 mb-6">

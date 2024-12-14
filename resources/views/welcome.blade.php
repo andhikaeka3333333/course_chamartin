@@ -1,16 +1,15 @@
 <x-layout-welcome>
     <x-slot:title>{{ $title }}</x-slot>
 
-
     <div class="flex flex-col items-center text-center py-40 px-8 lg:px-20">
-        <h1 class="text-5xl font-bold text-[#2d3e50] leading-snug font-poppins">
+        <h1 class="text-5xl font-bold text-[#2d3e50] leading-snug">
             Upgrade dirimu Menjadi Developer Profesional
         </h1>
-        <p class="text-gray-600 mt-6    ">
+        <p class="text-gray-600 mt-6">
             #BelajarBerdampak bersama Chamartin dengan tingkatkan keterampilan digital & raih karir impian kamu.
         </p>
         <a href="{{ route('login') }}"
-            class="mt-6 block rounded-md px-6 py-3 font-medium text-white bg-[#2d3e50] transition hover:bg-[#1b2835] font-montserrat">
+            class="mt-6 block rounded-md px-6 py-3 font-medium text-white bg-[#2d3e50] transition hover:bg-[#1b2835]">
             Belajar Sekarang
         </a>
         <p class="mt-6 text-gray-700 ">
@@ -41,7 +40,7 @@
     </div>
     <section id="testimonials" class="py-12 bg-gradient-to-b from-[#e0f7fa] to-[#ffffff] mt-16">
         <div class="container mx-auto text-center px-4 md:px-6 lg:px-8 max-w-[90%]">
-            <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#2d3e50]">
+            <h2 class="text-3xl md:text-4xl font-bold text-[#2d3e50]">
                 Apa Kata Pengguna Tentang Kami?
             </h2>
             <p class="text-gray-600 mt-4 max-w-xl mx-auto">
@@ -70,8 +69,6 @@
         </div>
     </section>
 
-
-
     <section id="about" class="container px-12 grid justify-center bg-white rounded-md aos-init aos-animate"
         data-aos="fade-in" data-aos-duration="100">
         <div class="text-slate-800">
@@ -80,7 +77,7 @@
                     <img src="images/ngoding.png" alt="Logo Chamartin">
                 </div>
                 <div class="text-center z-10" id="about-desc">
-                    <h2 class="text-3xl md:text-4xl font-bold font-poppins text-[#2d3e50]"> Tentang Chamartin</h2>
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#2d3e50]"> Tentang Chamartin</h2>
                     <p class="py-6">
                         Chamartin adalah platform belajar coding online yang dirancang untuk siapa saja yang ingin
                         memulai perjalanan di dunia pemrograman. Dengan modul pembelajaran yang interaktif dan mentor
@@ -93,7 +90,7 @@
         </div>
     </section>
     <div id="faq" class="text-center my-4 text-[#2d3e50] py-10">
-        <h2 class="text-3xl md:text-4xl font-bold font-poppins">
+        <h2 class="text-3xl md:text-4xl font-bold">
             Common Questions About Chamartin
         </h2>
         <p class="font-semibold text-lg">

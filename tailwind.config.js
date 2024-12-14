@@ -16,8 +16,6 @@ export default {
               },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-                poppins: ['Poppins', 'sans-serif'],
-                montserrat: ['Montserrat', 'sans-serif'],
             },
             keyframes: {
                 marquee: {
@@ -25,7 +23,7 @@ export default {
                     '100%': { transform: 'translateX(-100%)' },
                 },
               },
-              
+
         },
     },
 

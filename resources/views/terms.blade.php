@@ -5,7 +5,7 @@
         <!-- Header Section -->
         <div class="bg-[#2d3e50] text-white text-center py-14 lg:py-20 rounded-lg shadow-lg">
             <div class="container mx-auto px-6">
-                <h1  class="text-3xl lg:text-4xl font-semibold text-[#2d3e50] bg-white inline-block px-6 py-3 rounded-md mb-6 shadow-md font-poppins">
+                <h1  class="text-3xl lg:text-4xl font-semibold text-[#2d3e50] bg-white inline-block px-6 py-3 rounded-md mb-6 shadow-md">
                     Bantuan dan Panduan
                 </h1>
                 <p class="text-lg lg:text-xl text-white ">
