@@ -8,36 +8,38 @@
         </div>
     </header>
 
-    <!-- Team Profiles Section -->
-    <main class="max-w-7xl mx-auto px-4 py-12">
-
-
+    <div class="max-w-7xl mx-auto px-4 py-12">
         <section class="flex flex-col md:flex-row items-center max-w-7xl mx-auto px-4 py-6 mb-20">
             <!-- Text Section -->
             <div class="flex-1 text-left mb-6 md:mb-0 ">
-              <h1 class="text-4xl md:text-3xl font-bold text-gray-800 mb-4">
-                About <span class="text-[#2d3e50]">Us</span>?
-              </h1>
-              <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-4">
-                Chamartin Course adalah platform yang dirancang oleh pelajar SMK Raden Umar Said yang berlokasi di Kabupaten Kudus, Jawa Tengah, Indonesia. Kami merupakan pelajar Sekolah Menengah Kejuruan, yang mengambil kompetensi keahlian Rekayasa Perangkat Lunak.
-              </p>
-              <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                Kami ingin mengenalkan dunia coding kepada masyarakat dan pelajar, karena pemrograman di zaman sekarang sangat penting.
-              </p>
+                <h1 class="text-4xl md:text-3xl font-bold text-gray-800 mb-4">
+                    About <span class="text-[#2d3e50]">Us</span>?
+                </h1>
+                <p class="text-gray-600 text-sm md:text-base leading-relaxed mb-4">
+                    Chamartin Course adalah platform yang dirancang oleh pelajar SMK Raden Umar Said yang berlokasi di
+                    Kabupaten Kudus, Jawa Tengah, Indonesia. Kami merupakan pelajar Sekolah Menengah Kejuruan, yang
+                    mengambil kompetensi keahlian Rekayasa Perangkat Lunak.
+                </p>
+                <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                    Kami ingin mengenalkan dunia coding kepada masyarakat dan pelajar, karena pemrograman di zaman
+                    sekarang sangat penting.
+                </p>
             </div>
 
             <!-- Image Section -->
             <div class="flex-1 flex justify-center">
-              <img src="images/team.jpg" alt="Gambar Orang" class="size-4/5 md:size-4/5">
+                <img src="images/team.jpg" alt="Gambar Orang" class="size-4/5 md:size-4/5">
             </div>
-          </section>
+        </section>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Card 1 -->
-            <div class="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div
+                class="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <img src="images/dhika.jpg" alt="Andhika Eka Santosa" class="w-full h-96 object-cover">
                 <div class="p-6">
-                    <h2 class="text-xl font-bold text-gray-800 group-hover:text-[#2d3e50] transition-colors duration-300">
+                    <h2
+                        class="text-xl font-bold text-gray-800 group-hover:text-[#2d3e50] transition-colors duration-300">
                         Andhika Eka Santosa
                     </h2>
                     <p class="text-gray-600 mt-2">
@@ -47,23 +49,28 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div
+                class="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <img src="images/rayhan.jpg" alt="Rayhan Fatturahman Rabbani" class="w-full h-96 object-cover">
                 <div class="p-6">
-                    <h2 class="text-xl font-bold text-gray-800 group-hover:text-[#2d3e50] transition-colors duration-300">
+                    <h2
+                        class="text-xl font-bold text-gray-800 group-hover:text-[#2d3e50] transition-colors duration-300">
                         Rayhan Fathurrahman Rabbani
                     </h2>
                     <p class="text-gray-600 mt-2">
-                        Saya sebagai UI/UX Designer sekaligus developer sangat bahagia karena bisa memberi dampak bagi masyarakat
+                        Saya sebagai UI/UX Designer sekaligus developer sangat bahagia karena bisa memberi dampak bagi
+                        masyarakat
                     </p>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+            <div
+                class="group bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                 <img src="images/yodik.jpg" alt="Yusuf Rizqy Mubarok" class="w-full h-96 object-cover">
                 <div class="p-6">
-                    <h2 class="text-xl font-bold text-gray-800 group-hover:text-[#2d3e50] transition-colors duration-300">
+                    <h2
+                        class="text-xl font-bold text-gray-800 group-hover:text-[#2d3e50] transition-colors duration-300">
                         Yusuf Rizqy Mubarok
                     </h2>
                     <p class="text-gray-600 mt-2">
@@ -71,5 +78,17 @@
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+    <div class="flex justify-center items-center">
+        <div class="relative w-11/12 max-w-6xl bg-gradient-to-r from-blue-900 to-blue-600 rounded-lg shadow-xl overflow-hidden">
+            <div class="p-8 text-white flex-1">
+                <h1 class="text-3xl font-bold mb-4">Komunitas Discord</h1>
+                <hr class="border-white w-26 mb-4">
+                <p class="text-base leading-relaxed mb-6">Bergabunglah dengan komunitas Discord kami untuk diskusi, berbagi ide, dan berkolaborasi dengan anggota lainnya.</p>
+                <a href="https://discord.gg/7rsG2knH" target="blank">
+                    <button class="border border-white px-6 py-2 rounded-md">Join Discord</button>
+                </a>
+            </div>
+        </div>
+    </div>
 </x-layout-welcome>
